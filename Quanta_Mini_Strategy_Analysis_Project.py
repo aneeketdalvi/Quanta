@@ -51,7 +51,7 @@ st.title("Quanta Mini Strategy Analysis Project")
 
 # User Inputs
 ticker = st.text_input("Ticker:")
-start_date = st.date_input("Start Date:", value=datetime(2024, 11, 1))
+start_date = st.date_input("Start Date:", value=datetime(2024, 1, 1))
 end_date = st.date_input("End Date:", value=datetime.today())
 volume_change_threshold = st.number_input("Volume Change Threshold (%)", value=200.0, step=1.0)
 price_change_threshold = st.number_input("Price Change Threshold (%)", value=2.0, step=0.1)
